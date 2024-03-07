@@ -1,2 +1,2 @@
 # amazon-landingpage-clone
-Amazon landing page clone
+Amazon landing page clone.
