@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navBar {
+    height: 60px;
+    background-color: #231f20;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 58px;
+    width: 165px;
+}
+
+.logo {
+    background-image: url("../download.png");
+    background-size: cover;
+    height: 55px;
+    width: 165px;
+
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.nav-address {
+    display: flex;
+}
+
+.addressDiff {
+    font-size: 11px;
+    color: rgb(232, 232, 232);
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    width: 620px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+
+
+.search-select {
+    width: 50px;
+    text-align: center;
+    height: 41px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    height: 35px;
+    padding: 3px;
+    font-size: 1rem;
+    border: none;
+    border-left: 3px solid aliceblue;
+
+
+}
+
+.search-input :focus-within {
+    border: 2px solid #febd69;
+
+}
+
+.search-buttton {
+    background-color: #febd69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    font-size: 1.2rem;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.cart-icon i {
+    font-size: 30px;
+}
+
+.panel {
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.panel-option p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-option {
+    width: 95%;
+    font-size: 14px;
+}
+
+.hero-section {
+    background-image: url("../frontpage.jpeg");
+    height: 400px;
+    background-size: cover;
+
+}
+
+.hero-message {
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: black;
+    position: relative;
+    top: 70%;
+    width: 90%;
+    left: 5%;
+}
+
+.hero-message a {
+    color: #007185;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    border: 2px solid rgb(200, 195, 195);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+    width: 23%;
+    margin-left: 20px;
+}
+
+.head-section {
+    margin: 10px;
+    height: 20px;
+
+}
+
+.head-section1 {
+    margin: 10px;
+    height: 40px;
+
+}
+
+.see-more {
+    height: 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.box1 a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box1 {
+    margin: 10px;
+}
+
+.accessories-container {
+    height: 330px;
+}
+
+.accessories-section {
+    display: flex;
+    height: 50%;
+
+
+}
+
+.accessories-section1 {
+    display: flex;
+    height: 83%;
+}
+
+
+.accessories-section2 {
+    display: flex;
+    height: 78%;
+}
+
+.Headsets {
+
+    background-image: url("../headset.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.keyboard {
+    background-image: url("../keyboard.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+
+.shop-now {
+    margin: 2px 0px 0px 10px;
+
+
+}
+
+.pcs {
+
+    background-image: url("../pc.jpg");
+    background-size: cover;
+    height: 93%;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.mouse {
+    background-image: url("../mouse.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.chairs {
+    background-image: url("../chair.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.dining {
+    background-image: url("../dining.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.home {
+    background-image: url("../home.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.kitchen {
+    background-image: url("../kitchen.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.health {
+    background-image: url("../health and beauty.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.women-clothes-image {
+    background-image: url("../women.jpg");
+    background-size: cover;
+    height: 85%;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.Dresses {
+    background-image: url(../dress.jpg);
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 84%;
+}
+.keyboard {
+    background-image: url("../keyboard.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+
+.shop-now {
+    margin: 2px 0px 0px 10px;
+
+
+}
+
+.Knits {
+
+    background-image: url(../knits.jpg);
+    background-size: cover;
+    height: 93%;
+    width: 84%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.Jackets {
+    background-image: url("../Jackets.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.Jewelry {
+    background-image: url("../Jewelry.jpg");
+    background-size: cover;
+    margin: 4%;
+    height: 140px;
+    width: 50%;
+}
+
+.joy{
+    background-image: url("../joy.jpg");
+    background-size: cover;
+    height: 85%;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.watches{
+    background-image: url("../watches.jpg");
+    background-size: cover;
+    height: 93%;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.computers{
+    background-image: url("../computers.jpg");
+    background-size: cover;
+    height: 93%;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.footer-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.footer-panel2 {
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer-panel2 a {
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+    cursor: pointer;
+
+}
+
+.footer-panel2>a :hover {
+    text-decoration: underline;
+    font-size: 15px;
+    ;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+.underLineNone {
+    text-decoration: none;
+    font-size: 0.85rem;
+
+}
+
+.footer-panel3 {
+    background-color: #231f20;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-panel4 {
+    background-color: #231f20;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+
+
+}
+
+.pages {
+
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages a {
+    margin: 5px;
+}
+
+.copyright {
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+footer a :hover {
+    text-decoration: underline;
+}
